@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Unbounded&display=swap');
+
+body {
+    background-image: linear-gradient(50deg,rgb(189, 182, 182), white);
+}
+
+/* Cabeçalho */
+
+header#cabecalho {
+    background-color:#222222;
+    width: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-bottom: 2px white solid;
+    height: 160px;
+}
+
+header#cabecalho img#logo {
+    margin-top: 40px;
+}
+
+header#cabecalho a#login {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    left: 1200px;
+    top: 60px;
+    transition: background-color 1s;
+}
+
+header#cabecalho a#login:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+}
+
+header#cabecalho input#pesquisa {
+    border-radius: 20px;
+    height:40px;
+    width:450px;
+    position: absolute;
+    left: 436px;
+    top: 37px;
+}
+
+header#cabecalho img#pesquisaimg {
+    position: absolute;
+    left: 850px;
+    top: 50px;
+    width: 22px;
+    height: 20px;
+}
+
+
+/* Categorias */
+nav#categorias {
+    display: block;
+}
+
+nav#categorias ul {
+    list-style: none;
+    position: absolute;
+    top: 120px;
+    left: 367px;
+}
+
+nav#categorias li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav#categorias li:hover {
+    text-decoration: underline;
+}
+
+nav#categorias a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#categorias a:hover {
+    text-decoration: underline;
+}
+
+
+/* Corpo */
+section#corpo {
+    display: block;
+    width: 1200px;
+    margin: 20px auto 0px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#corpo h2#titulo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Mais Vendidos*/
+section#corpo img#publi {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    display: block;
+}
+
+table.produtos {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.produtos td {
+    border: 50px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 2px black;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+table.produtos td:hover {
+    text-decoration: underline;
+    background-color: #606060;
+}
+
+table.produtos tr {
+    display: inline-block;
+}
+
+table.produtos a {
+    color:  black;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+
+table.produtos a.legenda {
+    transition: color 1s;
+}
+
+table.produtos a.legenda:hover {
+    color: white;
+}
+
+
+/* Rodapé*/
+footer#rodape {
+    clear: both;
+    border-top: 2px solid black;
+}
+
+footer#rodape p {
+    text-align: center;
+}
