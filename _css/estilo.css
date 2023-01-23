@@ -13,7 +13,7 @@ header#cabecalho {
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-bottom: 2px white solid;
+    border-bottom: 2px whitesmoke solid;
     height: 160px;
 }
 
@@ -109,6 +109,7 @@ section#corpo img#publi {
     height: 40%;
     margin: auto;
     display: block;
+    box-shadow: 0px 0px 2px black;
 }
 
 table.produtos {
@@ -122,7 +123,7 @@ table.produtos {
 
 table.produtos td {
     border: 50px solid rgba(0, 0, 0, 0);
-    box-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     background-color: white;
     transition: background-color 0.5s;
 }
@@ -153,8 +154,17 @@ table.produtos a.legenda:hover {
 
 /* Rodapé*/
 footer#rodape {
+    color: white;
+    background-color: #222222;
     clear: both;
-    border-top: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-top: 2px solid whitesmoke;
+    margin: 0px auto -16px auto;
+}
+
+footer#rodape a {
+    color: whitesmoke;
+    text-decoration: double;
 }
 
 footer#rodape p {
