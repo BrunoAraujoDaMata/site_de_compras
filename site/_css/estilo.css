@@ -125,6 +125,7 @@ table.produtos td {
     box-shadow: 0px 0px 2px black;
     background-color: white;
     transition: background-color 0.5s;
+    padding: 10px 10px 10px 10px;
 }
 
 table.produtos td:hover {
